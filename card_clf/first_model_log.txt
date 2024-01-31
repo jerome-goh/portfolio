@@ -1,0 +1,79 @@
+Microsoft Windows [Version 10.0.19045.3570]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Lenovo>C:/Users/Lenovo/anaconda3/Scripts/activate
+
+(base) C:\Users\Lenovo>conda activate tf
+
+(tf) C:\Users\Lenovo>c:
+
+(tf) C:\Users\Lenovo>cd c:/Users/Lenovo/python/STP598/final_proj
+
+(tf) c:\Users\Lenovo\python\STP598\final_proj>C:/Users/Lenovo/anaconda3/envs/tf/python.exe c:/Users/Lenovo/python/STP598/final_proj/dummy.py
+Image Count:  7624
+Found 7624 files belonging to 53 classes.
+2023-11-15 19:23:03.785294: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-11-15 19:23:03.791152: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.        
+Found 265 files belonging to 53 classes.
+['ace of clubs', 'ace of diamonds', 'ace of hearts', 'ace of spades', 'eight of clubs', 'eight of diamonds', 'eight of hearts', 'eight of spades', 'five of clubs', 'five of diamonds', 'five of hearts', 'five of spades', 'four of clubs', 'four of diamonds', 'four of hearts', 'four of spades', 'jack of clubs', 'jack of diamonds', 'jack of hearts', 'jack of spades', 'joker', 'king of clubs', 'king of diamonds', 'king of hearts', 'king of spades', 'nine of clubs', 'nine of diamonds', 'nine of hearts', 'nine of spades', 'queen of clubs', 'queen of diamonds', 'queen of hearts', 'queen of spades', 'seven of clubs', 'seven of diamonds', 'seven of hearts', 'seven of spades', 'six of clubs', 'six of diamonds', 'six of hearts', 'six of 
+spades', 'ten of clubs', 'ten of diamonds', 'ten of hearts', 'ten of spades', 'three of clubs', 'three of diamonds', 'three of hearts', 'three of spades', 'two of clubs', 'two of diamonds', 'two of hearts', 'two of spades']
+0.003921569 1.0
+Epoch 1/5
+2023-11-15 19:23:17.340352: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:390] Filling up shuffle 
+buffer (this may take a while): 88 of 1000
+2023-11-15 19:23:27.068692: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:390] Filling up shuffle 
+buffer (this may take a while): 160 of 1000
+2023-11-15 19:23:37.368540: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:390] Filling up shuffle 
+buffer (this may take a while): 209 of 1000
+2023-11-15 19:23:40.850071: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:415] Shuffle buffer filled.
+239/239 [==============================] - 308s 1s/step - loss: 2.7870 - accuracy: 0.3057 - val_loss: 1.5347 - val_accuracy: 0.5623
+Epoch 2/5
+239/239 [==============================] - 320s 1s/step - loss: 1.4305 - accuracy: 0.6196 - val_loss: 1.0750 - val_accuracy: 0.7057
+Epoch 3/5
+239/239 [==============================] - 227s 950ms/step - loss: 0.6625 - accuracy: 0.8155 - val_loss: 
+0.9817 - val_accuracy: 0.7623
+Epoch 4/5
+239/239 [==============================] - 201s 838ms/step - loss: 0.2825 - accuracy: 0.9322 - val_loss: 
+1.0246 - val_accuracy: 0.8189
+Epoch 5/5
+239/239 [==============================] - 201s 841ms/step - loss: 0.1493 - accuracy: 0.9690 - val_loss: 
+1.1607 - val_accuracy: 0.7698
+OMP: Error #15: Initializing libiomp5md.dll, but found libiomp5 already initialized.
+OMP: Hint This means that multiple copies of the OpenMP runtime have been linked into the program. That is dangerous, since it can degrade performance or cause incorrect results. The best thing to do is to ensure that only a single OpenMP runtime is linked into the process, e.g. by avoiding static linking of the OpenMP runtime in any library. As an unsafe, unsupported, undocumented workaround you can set the environment variable KMP_DUPLICATE_LIB_OK=TRUE to allow the program to continue to execute, but that may cause crashes or silently produce incorrect results. For more information, please see http://www.intel.com/software/products/support/.
+
+(tf) c:\Users\Lenovo\python\STP598\final_proj>c:
+
+(tf) c:\Users\Lenovo\python\STP598\final_proj>cd c:/Users/Lenovo/python/STP598/final_proj
+
+(tf) c:\Users\Lenovo\python\STP598\final_proj>C:/Users/Lenovo/anaconda3/envs/tf/python.exe c:/Users/Lenovo/python/STP598/final_proj/dummy.py
+Traceback (most recent call last):
+  File "c:\Users\Lenovo\python\STP598\final_proj\dummy.py", line 6, in <module>
+    os.environ['KMP_DUPLICATE_LIB_OK']='True'
+NameError: name 'os' is not defined
+
+(tf) c:\Users\Lenovo\python\STP598\final_proj>c:
+
+(tf) c:\Users\Lenovo\python\STP598\final_proj>cd c:/Users/Lenovo/python/STP598/final_proj
+
+(tf) c:\Users\Lenovo\python\STP598\final_proj>C:/Users/Lenovo/anaconda3/envs/tf/python.exe c:/Users/Lenovo/python/STP598/final_proj/dummy.py
+Image Count:  7624
+Found 7624 files belonging to 53 classes.
+2023-11-15 19:49:08.340274: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-11-15 19:49:08.349709: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.        
+Found 265 files belonging to 53 classes.
+['ace of clubs', 'ace of diamonds', 'ace of hearts', 'ace of spades', 'eight of clubs', 'eight of diamonds', 'eight of hearts', 'eight of spades', 'five of clubs', 'five of diamonds', 'five of hearts', 'five of spades', 'four of clubs', 'four of diamonds', 'four of hearts', 'four of spades', 'jack of clubs', 'jack of diamonds', 'jack of hearts', 'jack of spades', 'joker', 'king of clubs', 'king of diamonds', 'king of hearts', 'king of spades', 'nine of clubs', 'nine of diamonds', 'nine of hearts', 'nine of spades', 'queen of clubs', 'queen of diamonds', 'queen of hearts', 'queen of spades', 'seven of clubs', 'seven of diamonds', 'seven of hearts', 'seven of spades', 'six of clubs', 'six of diamonds', 'six of hearts', 'six of 
+spades', 'ten of clubs', 'ten of diamonds', 'ten of hearts', 'ten of spades', 'three of clubs', 'three of diamonds', 'three of hearts', 'three of spades', 'two of clubs', 'two of diamonds', 'two of hearts', 'two of spades']
+0.0 1.0
+Epoch 1/4
+Epoch 1/4
+2023-11-15 19:49:20.349269: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:390] Filling up shuffle buffer (this may take a while): 226 of 1000
+2023-11-15 19:49:21.056164: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:415] Shuffle buffer filled.
+239/239 [==============================] - 319s 1s/step - loss: 3.0300 - accuracy: 0.2509 - val_loss: 1.7181 - val_accuracy: 0.5132
+Epoch 2/4
+239/239 [==============================] - 274s 1s/step - loss: 1.6496 - accuracy: 0.5561 - val_loss: 1.1847 - val_accuracy: 0.6415
+Epoch 3/4
+239/239 [==============================] - 302s 1s/step - loss: 0.9180 - accuracy: 0.7474 - val_loss: 1.0255 - val_accuracy: 0.7321
+Epoch 4/4
+239/239 [==============================] - 291s 1s/step - loss: 0.4152 - accuracy: 0.8871 - val_loss: 1.1626 - val_accuracy: 0.7434
