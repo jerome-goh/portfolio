@@ -1,9 +1,11 @@
-# portfolio
-A collection of class and personal projects in statistics and data science
+# Portfolio
+
+I am a first-year MS Statistics student at Arizona State University
+
+## Projects in statistics and data science
+
+### Project 1: Missing data analysis and imputation in R
+The purpose of this project is to identify and understand missing data mechanisms, and patterns of missingness, and estimate values of missing observations based on prior information from the remaining dataset. We also explore
+### Project 2: Image classification w/. tuner models in TensorFlow
 
 
-## Project 1: Missing data analysis and imputation in R
-
-## Project 2: Image classification w/. tuner models in TensorFlow
-
-## Project 3: Multiple regression analysis of S&P500 stocks
