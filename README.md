@@ -11,4 +11,4 @@ The objectives are to identify and understand missing data mechanisms, patterns 
 
 ### Project 2: Image classification w/. tuner models in TensorFlow
 
-
+This project seeks to explore the effect of various neural network architecture on prediction accuracy for image classification tasks. 
