@@ -1,8 +1,6 @@
-# Portfolio
+# Jerome Goh
 
-I am a first-year MS Statistics student at Arizona State University looking to pivot into Data Science and Machine Learning Engineering. 
-
-Below is a list of complete projects that I have done thus far in my time at graduate school. I look forward to showcasing more of my work soon.
+I am a first-year MS Statistics student at Arizona State University, graduating in May 2025, with strong interests in Data Science and Machine Learning Engineering. 
 
 ## Projects in statistics and data science
 
