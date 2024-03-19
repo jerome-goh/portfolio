@@ -1,6 +1,8 @@
 # Portfolio
 
-I am a first-year MS Statistics student at Arizona State University looking to pivot into Data Science and Machine Learning model development
+I am a first-year MS Statistics student at Arizona State University looking to pivot into Data Science and Machine Learning Engineering. 
+
+Below is a list of complete projects that I have done thus far in my time at graduate school. I look forward to showcasing more of my work soon.
 
 ## Projects in statistics and data science
 
@@ -13,7 +15,7 @@ The repository can be viewed [here](https://github.com/jerome-goh/Multiple_Imput
 
 ### Project 2: Image classification with HyperModels in Python
 
-This project explores the effect of various neural network architectures on prediction accuracy for image classification tasks with the TensorFlow API. The dataset consists of high-resolution scans of a highly varied assortment of [Poker cards](https://www.kaggle.com/datasets/gpiosenka/cards-image-datasetclassification/data). The initial exploratory analysis examines the effectiveness of pre-trained models to predict these images. However, it is likely that such cards are not factored into the pre-trained weights, as pre-trained models fail to produce . 
+This project explores the effect of various neural network architectures on prediction accuracy for image classification tasks with the TensorFlow API. The dataset consists of high-resolution scans of a highly varied assortment of [Poker cards](https://www.kaggle.com/datasets/gpiosenka/cards-image-datasetclassification/data). The initial exploratory analysis examines the effectiveness of pre-trained models to predict these images. However, it is likely that such cards are not factored into the pre-trained weights. 
 
 Instead of arbitrarily fitting as many pre-trained models as possible until satisfactory predictions are attained, I propose the use of hyperparameter search algorithms and hypermodels to build an effective model.
 
