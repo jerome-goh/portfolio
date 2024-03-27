@@ -13,8 +13,8 @@ The full repository can be viewed [here](https://github.com/jerome-goh/Multiple_
 
 ### Project 2: Image classification with HyperModels in Python
 
-This project explores the effect of various neural network architectures on prediction accuracy for image classification tasks with the TensorFlow API. The dataset consists of high-resolution scans of a highly varied assortment of [Poker cards](https://www.kaggle.com/datasets/gpiosenka/cards-image-datasetclassification/data). The initial exploratory analysis examines the effectiveness of pre-trained models to predict these images. However, it is likely that such cards are not factored into the pre-trained weights. 
+This project explores the effect of various neural network architectures on prediction accuracy for image classification tasks with the TensorFlow API. The dataset consists of high-resolution scans of a highly varied assortment of [Poker cards](https://www.kaggle.com/datasets/gpiosenka/cards-image-datasetclassification/data). The initial exploratory analysis examines the effectiveness of pre-trained models to predict these images. However, it is likely that such cards are not factored into the pre-trained weights, due to playing cards not being a part of their training data. 
 
-Instead of arbitrarily fitting as many pre-trained models as possible until satisfactory predictions are attained, I propose the use of hyperparameter search algorithms and hypermodels to build an effective model.
+Instead of arbitrarily fitting as many pre-trained models (with transfer learning) as possible until satisfactory predictions are attained, I propose the use of hyperparameter search algorithms and hypermodels to build an effective model.
 
 The full repository can be viewed [here](https://github.com/jerome-goh/DL_CNN), while a full written report can be found [here](https://github.com/jerome-goh/DL_CNN_PY/blob/main/STP598_FinalProject.pdf)
