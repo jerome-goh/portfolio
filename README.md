@@ -1,6 +1,6 @@
 # Jerome Goh
 
-I am a first-year MS Statistics student at Arizona State University, graduating in May 2025, with strong interests in Data Science and Machine Learning Engineering. 
+I am a first-year MS Statistics student at Arizona State University, graduating in May 2025, with strong interests in Data Science, Machine Learning, and Applied Mathematics. On this page is a collection of completed and ongoing projects throughout my academic life.
 
 ## Projects in statistics and data science
 
@@ -9,7 +9,7 @@ This project aims to understand better how the characteristics of vehicles facto
 
 The objectives are to identify and understand missing data mechanisms, patterns of missingness, and estimate values of missing observations based on prior information from the remaining dataset. After which, we pool the imputations, calculate correlations, and deploy algorithmic variable selection models to best identify predictors for CO2 levels. 
 
-The repository can be viewed [here](https://github.com/jerome-goh/Multiple_Imputation)
+The full repository can be viewed [here](https://github.com/jerome-goh/Multiple_Imputation)
 
 ### Project 2: Image classification with HyperModels in Python
 
@@ -17,4 +17,4 @@ This project explores the effect of various neural network architectures on pred
 
 Instead of arbitrarily fitting as many pre-trained models as possible until satisfactory predictions are attained, I propose the use of hyperparameter search algorithms and hypermodels to build an effective model.
 
-The repository can be viewed [here](https://github.com/jerome-goh/DL_CNN)
+The full repository can be viewed [here](https://github.com/jerome-goh/DL_CNN), while a commissioned written report can be found [here](https://github.com/jerome-goh/DL_CNN_PY/blob/main/STP598_FinalProject.pdf)
