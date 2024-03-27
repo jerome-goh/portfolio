@@ -17,4 +17,4 @@ This project explores the effect of various neural network architectures on pred
 
 Instead of arbitrarily fitting as many pre-trained models as possible until satisfactory predictions are attained, I propose the use of hyperparameter search algorithms and hypermodels to build an effective model.
 
-The full repository can be viewed [here](https://github.com/jerome-goh/DL_CNN), while a commissioned written report can be found [here](https://github.com/jerome-goh/DL_CNN_PY/blob/main/STP598_FinalProject.pdf)
+The full repository can be viewed [here](https://github.com/jerome-goh/DL_CNN), while a full written report can be found [here](https://github.com/jerome-goh/DL_CNN_PY/blob/main/STP598_FinalProject.pdf)
